@@ -5,7 +5,7 @@ A full-stack web application for managing employee records and leave requests. T
 ## Features
 
 - User Registration & Login
-- Forgot & Reset Password
+- Forgot Password & Reset Password
 - Admin Dashboard
 - Employee Dashboard
 - Add, Edit & Delete Employees
@@ -28,12 +28,12 @@ A full-stack web application for managing employee records and leave requests. T
 - Express.js
 - MongoDB
 - Mongoose
-- JWT
+- JWT Authentication
 - bcrypt
 
 ## Project Structure
 
-```
+```text
 employee-leave-management-system/
 │
 ├── backend/
@@ -63,9 +63,9 @@ npm run dev
 
 ## Environment Variables
 
-Create a `.env` file inside the backend folder.
+Create a `.env` file inside the `backend` folder.
 
-```
+```env
 PORT=5000
 MONGO_URL=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
@@ -73,11 +73,10 @@ JWT_SECRET=your_secret_key
 
 ## Author
 
-Pranjal Prakash
+**Pranjal Prakash**
 
-GitHub:
-https://github.com/pranjal150-code
+GitHub: https://github.com/pranjal150-code
 
 ## License
 
-Educational Project
+This project is developed for educational purposes.
