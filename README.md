@@ -1,16 +1,83 @@
-# React + Vite
+# Employee Leave Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack web application for managing employee records and leave requests. The system provides separate dashboards for administrators and employees.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- User Registration & Login
+- Forgot & Reset Password
+- Admin Dashboard
+- Employee Dashboard
+- Add, Edit & Delete Employees
+- Apply for Leave
+- Approve/Reject Leave Requests
+- Leave History
+- Role-Based Authentication
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Frontend
+- React
+- Vite
+- React Router
+- Axios
+- CSS
 
-## Expanding the ESLint configuration
+### Backend
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- JWT
+- bcrypt
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Project Structure
+
+```
+employee-leave-management-system/
+│
+├── backend/
+├── public/
+├── src/
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## Installation
+
+### Frontend
+
+```bash
+npm install
+npm run dev
+```
+
+### Backend
+
+```bash
+cd backend
+npm install
+npm run dev
+```
+
+## Environment Variables
+
+Create a `.env` file inside the backend folder.
+
+```
+PORT=5000
+MONGO_URL=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+```
+
+## Author
+
+Pranjal Prakash
+
+GitHub:
+https://github.com/pranjal150-code
+
+## License
+
+Educational Project
