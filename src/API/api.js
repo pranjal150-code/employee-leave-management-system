@@ -1,7 +1,3 @@
-import axios from "axios";
-
-const API = axios.create({
-  baseURL: "http://localhost:5000/api",
+const api = axios.create({
+  baseURL: "https://employee-leave-management-system-chdl.onrender.com/api"
 });
-
-export default API;
